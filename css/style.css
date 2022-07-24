@@ -13,6 +13,7 @@ body {
 .main {
     width: 1200px;
     margin: 0 auto;
+    margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
