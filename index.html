@@ -1,127 +1,208 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>My resume</title>
 </head>
+
 <body>
-    <header class="header">
-        <nav class="header__nav nav-header">
-            <a href="#" class="logo"><span class="logo logo_blue">Web</span>Studio</a>
-            <ul class="nav-header__items">
-                <li class="nav-header__item nav-header__item_active"><a href="#" class="nav-header__link">Студия</a>
-                </li>
-                <li class="nav-header__item"><a href="#" class="nav-header__link">Портфолио</a></li>
-                <li class="nav-header__item"><a href="#" class="nav-header__link">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="header__contacts contacts-header__list">
-            <li class="contacts-header__item">
-                <a href="mailto:info@devstudio.com" class="contacts-header__link">info@devstudio.com</a>
-            </li>
-            <li class="contacts-header__item">
-                <a href="tel:+380961111111" class="contacts-header__link">+38 096 111 11 11</a>
-            </li>
-        </ul>
-    </header>
-    <main class="content">
-        <section class="offer">
-            <h1 class="offer__text">Эффективные решения для вашего бизнеса</h1>
-            <button class="order-btn" type="button">Заказать услугу</button>
-        </section>
-        <section class="about-us">
-            <h2 class="about-us_title about-us_title_hiden">О нас</h2>
-            <ul class="about-us__items">
-                <li class="about-us__item item-about-us">
-                    <h3 class="item-about-us__title">Внимание к деталям</h3>
-                    <p class="item-about-us__text">Идейные соображения, а также начало повседневной работы по
-                        формированию
-                        позиции.</p>
-                </li>
-                <li class="about-us__item item-about-us">
-                    <h3 class="item-about-us__title">Пунктуальность</h3>
-                    <p class="item-about-us__text">Задача организации, в особенности же рамки и место обучения
-                        кадров
-                        влечет за
-                        собой.</p>
-                </li>
-                <li class="about-us__item item-about-us">
-                    <h3 class="item-about-us__title">Планирование</h3>
-                    <p class="item-about-us__text">Равным образом консультация с широким активом в значительной
-                        степени
-                        обуславливает.</p>
-                </li>
-                <li class="about-us__item item-about-us">
-                    <h3 class="item-about-us__title">Современные технологии</h3>
-                    <p class="item-about-us__text">Значимость этих проблем настолько очевидна, что реализация
-                        плановых
-                        заданий.
+    <!-- Main -->
+    <div class="main">
+                <!-- Main content -->
+
+            <div class="main-content">
+            <!-- About user -->
+            <div class="about">
+                <h2 class="about-position">
+                    Front-End Developer
+                </h2>
+                <h1 class="about-name">
+                    Valerii Kartashov
+                </h1>
+                <p class="about-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                    facilisis.
+                </p>
+            </div>
+            <!-- Projects -->
+            <div class="projects">
+                <h3 class="title">
+                    Projects
+                </h3>
+                <ol class="projects-list">
+                    <li class="projects-item">
+                        <span class="project"><a class="project-link"
+                                href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
+                            ..............
+                            <span class="project-brecket">[</span> HTML5, CSS3 <span class="project-brecket">]</span></span>
+                    </li>
+                    <li class="projects-item"><span class="project"><a class="project-link"
+                                href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
+                            ...............
+                            <span class="project-brecket">[</span> JavaScript <span class="project-brecket">]</span></span>
+                    </li>
+                    <li class="projects-item"><span class="project"><a class="project-link"
+                                href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
+                            ......................
+                            <span class="project-brecket">[</span> React.js, Node.js <span
+                                class="project-brecket">]</span></span>
+                    </li>
+                </ol>
+            </div>
+            <!-- Work -->
+            <div class="work">
+                <h3 class="title">
+                    Work Experience
+                </h3>
+                <!-- Company 1 -->
+                <div class="work-block">
+                    <h4 class="work-position">
+                        Front-End Developer <span class="organization">Freelance</span>
+                    </h4>
+                    <p class="period">
+                        September 2019 - up to now <span class="line">|</span> Country
                     </p>
-                </li>
-            </ul>
-            <section class="what-we-do">
-                <h2 class="what-we-do__title">Чем мы занимаемся</h2>
-                <ul class="what-we-do__imgs">
-                    <li class="what-we-do__img">
-                        <img src="./images/what_we_do/what_we_do_img_1.jpg" alt="Разработка" width="370" height="294">
-                    </li>
-                    <li class="what-we-do__img">
-                        <img src="./images/what_we_do/what_we_do_img_2.jpg" alt="Дизайн интерфесов" width="370"
-                            height="294">
-                    </li>
-                    <li class="what-we-do__img">
-                        <img src="./images/what_we_do/what_we_do_img_3.jpg" alt="Колористка" width="370" height="294">
-                    </li>
+                    <ul class="work-list">
+                        <li class="work-list-item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua.
+                        </li>
+                        <li class="work-list-item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </li>
+                        <li class="work-list-item">
+                            Risus commodo viverra maecenas.
+                        </li>
+                        <li class="work-list-item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                        </li>
+                    </ul>
+                </div>
+                <!-- Company 2 -->
+                <div class="work-block">
+                    <h4 class="work-position">
+                        Manager <span class="organization">Roga & Kopyta New</span>
+                    </h4>
+                    <p class="period">
+                        March 2015 - October 2018 <span class="line">|</span> Country
+                    </p>
+                    <ul class="work-list">
+                        <li class="work-list-item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
+                            magna aliqua.
+                        </li>
+                        <li class="work-list-item">
+                            Quis ipsum suspendisse ultrices gravida.
+                        </li>
+                        <li class="work-list-item">
+                            Risus commodo viverra maecenas.
+                        </li>
+                    </ul>
+                </div>
+                <!-- Company 3 -->
+                <div class="work-block">
+                    <h4 class="work-position">
+                        Manager <span class="organization">Roga & Kopyta LLC</span>
+                    </h4>
+                    <p class="period">
+                        June 2014 - February 2015 <span class="line">|</span> Country
+                    </p>
+                    <ul class="work-list">
+                        <li class="work-list-item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </li class="work-list-item">
+                        <li class="work-list-item">
+                            Quis ipsum suspendisse ultrices gravida.
+                        </li>
+                        <li class="work-list-item">
+                            Risus commodo viverra maecenas.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Education -->
+            <div class="education">
+                <h3 class="title">
+                    Education
+                </h3>
+                <h4 class="organization">
+                    National University of Radioelectronics
+                </h4>
+                <h5 class="education-position">
+                    Management
+                </h5>
+                <p class="period">
+                    September 2009 - June 2014 <span class="line">|</span> Country
+                </p>
+                <h4 class="organization">
+                    GoIT
+                </h4>
+                <h5 class="education-position">
+                    FrontEnd Developer
+                </h5>
+                <p class="period">
+                    September 2021 - March 2022 <span class="line">|</span> Country
+                </p>
+            </div>
+        </div>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <img class="photo" src="img/me.jpg" alt="Valeriy Kartashov">
+            <!-- Contacts -->
+            <div class="contacts">
+                <h3 class="sidebar-title">
+                    Contacts
+                </h3>
+                <div>
+                    <p>
+                        <span class="contact-type">C:</span>
+                        <a class="contact-link" href="tel:+380678226499">+38 067 822 64 99</a>
+                    </p>
+                    <p>
+                        <span class="contact-type">E:</span>
+                        <a class="contact-link" href="mailto:valeriyamazing@gmail.com"
+                            class="contact-link">valeriyamazing@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Tech  Skills -->
+            <div class="tech-skills">
+                <h3 class="sidebar-title">
+                    Tech Skills
+                </h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span> </li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">React.js</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Node.js</span></li>
                 </ul>
-            </section>
-        </section>
-        <section class="our-team">
-            <h2 class="our-team__title">Наша команда</h2>
-            <ul class="our-team__list">
-                <li class="our-team__item our-team-item">
-                    <img class="our-team-item__img" src="./images/team/demjanenko.jpg" alt="Игорь Демьяненко"
-                        width="270" height="260">
-                    <h3 class="our-team-item__name">Игорь Демьяненко</h3>
-                    <p class="our-team-item__description">Product Designer</p>
-                </li>
-                <li class="our-team__item our-team-item">
-                    <img class="our-team-item__img" src="./images/team/repina.jpg" alt="Ольга Репина" width="270"
-                        height="260">
-                    <h3 class="our-team-item__name">Ольга Репина</h3>
-                    <p class="our-team-item__description">Frontend Developer</p>
-                </li>
-                <li class="our-team__item our-team-item">
-                    <img class="our-team-item__img" src="./images/team/tarasov.jpg" alt="Николай Тарасов" width="270"
-                        height="260">
-                    <h3 class="our-team-item__name">Николай Тарасов</h3>
-                    <p class="our-team-item__description">Marketing</p>
-                </li>
-                <li class="our-team__item our-team-item">
-                    <img class="our-team-item__img" src="./images/team/ermakov.jpg" alt="Ermakov" width="270"
-                        height="260">
-                    <h3 class="our-team-item__name">Михаил Ермаков</h3>
-                    <p class="our-team-item__description">UI Designer</p>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer class="footer">
-        <a href="#" class="logo"><span class="logo logo_blue">Web</span>Studio
-        </a>
-        <address>
-            <ul class="footer__contacts contacts-footer">
-                <li class="contacts-footer__item"><a href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2">г. Киев, пр-т Леси
-                        Украинки, 26</ф>
-                </li>
-                <li class="contacts-footer__item"><a href="mailto:info@devstudio.com"
-                        class="contacts-footer__link">info@devstudio.com</a></li>
-                <li class="contacts-footer__item"><a href="tel:+380961111111" class="contacts-footer__link">+38 096
-                        111 11 11</a></li>
-            </ul>
-        </address>
-    </footer>
+            </div>
+            <!-- Soft Skills -->
+            <div class="soft-skills">
+                <h3 class="sidebar-title">
+                    Soft Skills
+                </h3>
+                <ul class="soft-skills-list">
+                    <li class="soft-skills-item"><span class="soft-skills-text">Scrum</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">Agile</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">GTD</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">Teamwork</span></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
 </body>
 </html>
